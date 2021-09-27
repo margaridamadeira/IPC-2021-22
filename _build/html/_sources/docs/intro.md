@@ -2,17 +2,11 @@
 
 
 
-This is a small sample book to give you a feel for how book content is
-structured.
+<!-- [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/margaridamadeira/IPC-2020-21/master) -->
 
-:::{note}
-Here is a note!
-:::
 
-And here is a code block:
+Estão aqui reunidos os materiais de *Introdução à programação científica* do curso de [Bioengenharia](https://fct.ualg.pt/pt/curso/1907) da Faculdade de Ciências e Tecnologia da Universidade do Algarve.
 
-```
-e = mc^2
-```
+Use o menu da esquerda para selecionar os conteúdos.
 
-Check out the content pages bundled with this sample book to see more.
+Estes materiais foram produzidos por [Margarida Madeira e Moura](https://fct.ualg.pt/user/4789), usando [Jupyter Book 0.11.3](https://jupyterbook.org/intro.html), integrado em [The Executable Book Project](https://executablebooks.org/en/latest/).
