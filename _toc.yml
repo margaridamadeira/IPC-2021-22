@@ -3,13 +3,12 @@
 
 format: jb-book
 root: docs/intro
-part:
+parts:
 - caption: "Preâmbulo"
-chapters:
-- file: docs/Apresentação
-part:
+  chapters:
+  - file: docs/Apresentação
 - caption: "Aulas semanais"
-chapters:
-- file: docs/Introdução
-- file: docs/Primeiros_passos 
+  chapters:
+  - file: docs/Introdução
+  - file: docs/Primeiros_passos 
 
