@@ -62,7 +62,7 @@ name: pagina_submissão
 Página de submissão.
 ```
 
-No concurso **IPC_LO**, ao escolher o problema A verá a {numref}`problA`
+No concurso **IPC_L0**, ao escolher o problema A verá a {numref}`problA`
 
 ```{figure} figures/fig5.png
 ---
@@ -104,3 +104,4 @@ name: resultado
 Resultado da submissão.
 ```
 
+ 7. Para que uma submissão aceite seja pontuada, deve validar a solução com a Professora no prazo máximo de uma semana.
