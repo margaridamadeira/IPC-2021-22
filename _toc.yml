@@ -11,4 +11,7 @@ parts:
   chapters:
   - file: docs/Introdução
   - file: docs/Primeiros_passos 
+  - file: docs/IniciarProgramar
+  - file: docs/SubmissãoMooshak
+  - file: docs/Lab0
 
