@@ -14,4 +14,5 @@ parts:
   - file: docs/IniciarProgramar
   - file: docs/SubmissãoMooshak
   - file: docs/Lab0
+  - file: docs/Lab1
 

@@ -43,7 +43,10 @@ Prepare um programa que contenha uma função *k2c* que converta uma temperatura
 
 ### Tarefa B
 
-Prepare um programa que contenha uma função *c2k* que converta uma temperatura em graus Celsius para kelvin.
+Acrescente ao seu programa uma função *c2k* que converta uma temperatura em graus Celsius para kelvin.
+
+Altere as linhas finais para que a nova função seja agora chamada.
+De futuro, faça sempre a alteração correspondente no conjunto principal de instruções.
 
 #### Caso de teste
 
@@ -63,7 +66,7 @@ Prepare um programa que contenha uma função *c2k* que converta uma temperatura
 
 ### Tarefa C
 
-Prepare um programa que contenha uma função *c2f* que converta uma temperatura em graus Celsius para graus Farenheit.
+Acrescente ao seu programa uma função *c2f* que converta uma temperatura em graus Celsius para graus Fahrenheit.
 
 #### Caso de teste
 
@@ -81,7 +84,7 @@ Prepare um programa que contenha uma função *c2f* que converta uma temperatura
 
 ### Tarefa D
 
-Prepare um programa que contenha uma função *f2c* que converta uma temperatura em graus Fahrenheit para graus Celsius.
+Acrescente ao seu programa uma função *f2c* que converta uma temperatura em graus Fahrenheit para graus Celsius.
 
 #### Caso de teste
 
@@ -99,7 +102,7 @@ Prepare um programa que contenha uma função *f2c* que converta uma temperatura
 
 ### Tarefa E
 
-Prepare um programa que contenha uma função *k2f* (que usa as funções *k2c* e *c2f*) que converta uma temperatura em kelvin para graus Farenheit.
+Acrescente agora uma função *k2f* que converta uma temperatura em kelvin para graus Fahrenheit. A função *k2f* deve usar as funções *k2c* e *c2f*. 
 
 #### Caso de teste
 
@@ -117,7 +120,7 @@ Prepare um programa que contenha uma função *k2f* (que usa as funções *k2c* 
 
 ### Tarefa F
 
-Prepare um programa que contenha uma função *f2k* (que usa as funções *f2c* e *c2k*) que converta uma temperatura em graus Fahrenheit para kelvin.
+Acrescente ao seu programa uma função *f2k* que converta uma temperatura em graus Fahrenheit para kelvin. A função *f2k* deve usar as funções *f2c* e *c2k*. 
 
 #### Caso de teste
 
