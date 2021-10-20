@@ -8,14 +8,13 @@ Com este guião, exercitaremos:
 1. o uso de condições no controlo de fluxo do programa (com *if* e *while*) 
 1. o desenvolvimento de programas
 
-e continuaremos a usar o Mooshak para verificar o resultado dos programas desenvolvidos.
-
 ## Enunciado
 
 ### Tarefa A
 
 Na aula teórica vimos o desenvolvimento de funções para o cálculo do fatorial de um número. 
-Pretendemos agora incluir uma dessas funções num programa ( cf. {ref}`ResProgrCompl`), incluindo na função de teste a verificação de que a entrada é válida.
+
+Pretendemos agora incluir uma dessas funções num programa, incluindo na função de teste a verificação de que a entrada é válida.
 
 Note que o fatorial de um número está definido para números inteiros positivos ($N_0^+$). Ou seja, não se aceitam valores negativos ou strings. 
 
