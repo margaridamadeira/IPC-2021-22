@@ -96,7 +96,7 @@ Pretende-se determinar os números pares de um intervalo. Para o efeito, conside
 
 """
 Determinar os números pares de um intervalo
-(c) Margarida Madeira e Moura, 2020
+(c) Margarida Madeira e Moura, 2021
 """
 
 def par(n):

@@ -15,4 +15,6 @@ parts:
   - file: docs/SubmissãoMooshak
   - file: docs/Lab0
   - file: docs/Lab1
+  - file: docs/ProgPython
+  - file: docs/Lab2
 
