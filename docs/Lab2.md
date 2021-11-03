@@ -12,7 +12,7 @@ Com este guião, exercitaremos:
 
 ### Tarefa A
 
-Na aula teórica vimos o desenvolvimento de funções para o cálculo do fatorial de um número. 
+Na aula vimos o desenvolvimento de funções para o cálculo do fatorial de um número. 
 
 Pretendemos agora incluir uma dessas funções num programa, incluindo na função de teste a verificação de que a entrada é válida.
 

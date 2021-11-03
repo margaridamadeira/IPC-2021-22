@@ -17,4 +17,6 @@ parts:
   - file: docs/Lab1
   - file: docs/ProgPython
   - file: docs/Lab2
+  - file: docs/ProgPython2
+  - file: docs/Lab3
 
