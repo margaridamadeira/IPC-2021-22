@@ -22,4 +22,5 @@ parts:
   - file: docs/ProgPython3
   - file: docs/Lab4
   - file: docs/Lab5
+  - file: docs/ProgPython4
 

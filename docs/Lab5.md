@@ -1,3 +1,5 @@
+<!-- #region -->
+
 # Lab5
 
 
@@ -13,10 +15,10 @@ Antes disso, reúna todos os seus materiais para consulta durante a festa e os s
 ## IMC
 
 ```{figure} ./figures/Laurel_and_Hardy_Silhouette.jpg
----
 height: 300px
 name: LaurelHardy
 ---
+<!-- #endregion -->
 [Laurel and Hardy Silhouette](https://commons.wikimedia.org/wiki/File:Laurel_and_Hardy_Silhouette.jpg), de Cls14 em English Wikipedia, Public domain, via Wikimedia Commons.
 ```
 
