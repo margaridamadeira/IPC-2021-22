@@ -19,3 +19,5 @@ Submeta na tarefa B do Lab6.
 ## Tarefa C
 
 Submeta na tarefa C do Lab6.
+
+
