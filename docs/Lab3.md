@@ -134,3 +134,5 @@ Submeta no problema C do Lab3.
 ## Referências 
 
 As tarefas A, B e C são inspiradas nos exercícios da plataforma [Rosalind](http://rosalind.info/problems/locations/), sendo em cada uma das tarefas apresentada a fonte respetiva.
+
+
