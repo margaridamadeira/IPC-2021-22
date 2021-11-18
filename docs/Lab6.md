@@ -12,11 +12,14 @@ Com este guião exercitaremos:
 
 Acompanhado pela irmã, o Rui continua a estudar química. Para que possa verificar os resultados, vamos preparar uma solução em Python para calcular o peso de algumas moléculas.
 
-<img src="./figures/Elements_Pics_Simple_w2000.png" alt="Tabela periódica em imagens" style="width: 500px;"/>
-
+```{figure} ./figures/Elements_Pics_Simple_w2000.png
+---
+width: 500px
+name: TabelaPeriodica
+---
 [Tabela Periódica, em imagens. © 2005-2016 Keith Enevoldsen](https://elements.wlonk.com/) 
 
-
+```
 
 ### Descrição do caso
 
@@ -159,7 +162,7 @@ Já estamos quase a concluir. Se se recorda da Química, ótimo. Senão, relembr
 
 A massa molecular de um elemento ou de um composto pode ser estimado pelo somatório, para cada elemento químico que surge na molécula, do produto do número de átomos desse elemento pela respetiva massa atómica. 
 
-Parece complicado? Não é! Consideremos a água, $H_2 O$. OS elementos são $H$  e $O$. E se existir mais do que um átomo de um dado elemento, a seguir ao símbolo surge um inteiro. Assim, no caso da água, existem dois átomos de oxigénio e um de hidrogénio e teríamos ``` 1.008e+00 * 2 + 1.600e+01 ```.
+Parece complicado? Não é! Consideremos a água, $H_2 O$. Os elementos são $H$ e $O$. E se existir mais do que um átomo de um dado elemento, a seguir ao símbolo surge um inteiro. Assim, no caso da água, existem dois átomos de oxigénio e um de hidrogénio e teríamos ``` 1.008e+00 * 2 + 1.600e+01 ```.
 
 
 Prepare o seu programa para ler o número de elementos a considerar, as linhas com esses elementos e as fórmulas moleculares pretendidas e apresentar, para cada molécula, a massa molecular em notação científica com três casas decimais. 
