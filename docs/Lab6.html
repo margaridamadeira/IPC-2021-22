@@ -341,8 +341,10 @@
 <div class="section" id="elementos-da-tabela-periodica">
 <h2>Elementos da tabela periódica<a class="headerlink" href="#elementos-da-tabela-periodica" title="Link permanente para este título">¶</a></h2>
 <p>Acompanhado pela irmã, o Rui continua a estudar química. Para que possa verificar os resultados, vamos preparar uma solução em Python para calcular o peso de algumas moléculas.</p>
-<img src="./figures/Elements_Pics_Simple_w2000.png" alt="Tabela periódica em imagens" style="width: 500px;"/>
-<p><a class="reference external" href="https://elements.wlonk.com/">Tabela Periódica, em imagens. © 2005-2016 Keith Enevoldsen</a></p>
+<div class="figure align-default" id="tabelaperiodica">
+<a class="reference internal image-reference" href="../_images/Elements_Pics_Simple_w2000.png"><img alt="../_images/Elements_Pics_Simple_w2000.png" src="../_images/Elements_Pics_Simple_w2000.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text"><a class="reference external" href="https://elements.wlonk.com/">Tabela Periódica, em imagens. © 2005-2016 Keith Enevoldsen</a></span><a class="headerlink" href="#tabelaperiodica" title="Permalink to this image">¶</a></p>
+</div>
 <div class="section" id="descricao-do-caso">
 <h3>Descrição do caso<a class="headerlink" href="#descricao-do-caso" title="Link permanente para este título">¶</a></h3>
 <p>O fluxo elementar dos programas é ler, processar, escrever. Ao começarmos por ler e escrever sabemos que estamos a tratar <em>bem</em> os dados e podemos depois concentrar a atenção no processamento.</p>
@@ -538,7 +540,7 @@ Temos pois seis campos de dados em cada linha. Comece por identificar o tipo (em
 </tbody>
 </table>
 <p>A massa molecular de um elemento ou de um composto pode ser estimado pelo somatório, para cada elemento químico que surge na molécula, do produto do número de átomos desse elemento pela respetiva massa atómica.</p>
-<p>Parece complicado? Não é! Consideremos a água, <span class="math notranslate nohighlight">\(H_2 O\)</span>. OS elementos são <span class="math notranslate nohighlight">\(H\)</span>  e <span class="math notranslate nohighlight">\(O\)</span>. E se existir mais do que um átomo de um dado elemento, a seguir ao símbolo surge um inteiro. Assim, no caso da água, existem dois átomos de oxigénio e um de hidrogénio e teríamos <code class="docutils literal notranslate"><span class="pre">1.008e+00</span> <span class="pre">*</span> <span class="pre">2</span> <span class="pre">+</span> <span class="pre">1.600e+01</span></code>.</p>
+<p>Parece complicado? Não é! Consideremos a água, <span class="math notranslate nohighlight">\(H_2 O\)</span>. Os elementos são <span class="math notranslate nohighlight">\(H\)</span> e <span class="math notranslate nohighlight">\(O\)</span>. E se existir mais do que um átomo de um dado elemento, a seguir ao símbolo surge um inteiro. Assim, no caso da água, existem dois átomos de oxigénio e um de hidrogénio e teríamos <code class="docutils literal notranslate"><span class="pre">1.008e+00</span> <span class="pre">*</span> <span class="pre">2</span> <span class="pre">+</span> <span class="pre">1.600e+01</span></code>.</p>
 <p>Prepare o seu programa para ler o número de elementos a considerar, as linhas com esses elementos e as fórmulas moleculares pretendidas e apresentar, para cada molécula, a massa molecular em notação científica com três casas decimais.</p>
 <div class="section" id="id1">
 <h4>Caso de teste<a class="headerlink" href="#id1" title="Link permanente para este título">¶</a></h4>
