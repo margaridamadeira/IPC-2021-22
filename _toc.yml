@@ -23,4 +23,5 @@ parts:
   - file: docs/Lab4
   - file: docs/Lab5
   - file: docs/ProgPython4
+  - file: docs/Lab6
 
