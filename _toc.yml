@@ -25,5 +25,5 @@ parts:
   - file: docs/ProgPython4
   - file: docs/Lab6
   - file: docs/MódulosTestes
-  - file: docs/F1-2021.md
+
 
