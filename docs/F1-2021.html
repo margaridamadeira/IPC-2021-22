@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primeira Festa de Programação &#8212; Introdução à programação científica</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -31,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -43,8 +43,6 @@
     <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -55,11 +53,10 @@
     <link rel="canonical" href="https://margaridamadeira.github.io/IPC-2021-22/docs/F1-2021.html" />
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Pesquisar" href="../search.html" />
+    <link rel="next" title="Criação de soluções" href="M%C3%B3dulosTestes.html" />
+    <link rel="prev" title="Lab6" href="Lab6.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="pt">
-    
-
-    <!-- Google Analytics -->
+    <meta name="docsearch:language" content="en" />
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -98,7 +95,7 @@
   </a>
  </li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
+<p class="caption" role="heading">
  <span class="caption-text">
   Preâmbulo
  </span>
@@ -110,12 +107,12 @@
   </a>
  </li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
+<p class="caption" role="heading">
  <span class="caption-text">
   Aulas semanais
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Introdu%C3%A7%C3%A3o.html">
    Introdução
@@ -189,6 +186,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="Lab6.html">
    Lab6
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Primeira Festa de Programação
   </a>
  </li>
  <li class="toctree-l1">
@@ -268,8 +270,8 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ainda-temperaturas">
-   Ainda temperaturas
+  <a class="reference internal nav-link" href="#imperial-para-metrico">
+   Imperial para métrico
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -280,8 +282,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#gerar-senhas">
-   Gerar senhas
+  <a class="reference internal nav-link" href="#ocorrencias">
+   Ocorrências
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -292,8 +294,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#quimica-a-toa">
-   Química à toa
+  <a class="reference internal nav-link" href="#gerar-senhas">
+   Gerar senhas
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -318,75 +320,90 @@
 <h1>Primeira Festa de Programação<a class="headerlink" href="#primeira-festa-de-programacao" title="Link permanente para este título">¶</a></h1>
 <p><strong>Introdução à programação científica - Bioengenharia</strong></p>
 <p><strong>25 de novembro de 2020, das 16h30 às 19h30</strong></p>
-<hr> 
 <p>Considere a <a class="reference external" href="https://tutoria.ualg.pt/2021/mod/resource/view.php?id=37418">Informação sobre as Festas de Programação</a>.</p>
-<div class="section" id="ainda-temperaturas">
-<h2>Ainda temperaturas<a class="headerlink" href="#ainda-temperaturas" title="Link permanente para este título">¶</a></h2>
-<div class="figure align-default" id="retas-de-conversao-de-temperaturas">
-<a class="reference internal image-reference" href="../_images/Temperaturas.png"><img alt="../_images/Temperaturas.png" src="../_images/Temperaturas.png" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-text"><a class="reference external" href="https://pt.wikipedia.org/wiki/R%C3%A9aumur">Retas de conversão de temperatura</a>, Imagem capturada da Wikipedia.org, CC-BY-SA 3.0, acedido a 2021-11-22.</span><a class="headerlink" href="#retas-de-conversao-de-temperaturas" title="Permalink to this image">¶</a></p>
+<hr>
+<div class="section" id="imperial-para-metrico">
+<h2>Imperial para métrico<a class="headerlink" href="#imperial-para-metrico" title="Link permanente para este título">¶</a></h2>
+<p>O sistema imperial é usado por poucos países, mas queremos ser inclusivos. Vamos facilitar a conversão de medidas de distância do sistema imperial para o sistema métrico.</p>
+<p>Sabemos que uma polegada corresponde a 2.54 centimetro e que um pé corresponde a 12 polegadas.</p>
+<p>Queremos então converter informação de distâncias de pé para centímetro.</p>
+<div class="figure align-default" id="imperial-to-metric">
+<a class="reference internal image-reference" href="../_images/imperial2metric.png"><img alt="../_images/imperial2metric.png" src="../_images/imperial2metric.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text"><a class="reference external" href="http://www.mathsisfun.com/metric-imperial-conversion-charts.html">Conversão de medidas de distância entre os sistemas imperial e métrico. Fonte da imagem: Pierce, Rod. «Metric - US/Imperial Conversion Charts» Math Is Fun. Ed. Rod Pierce. 15 Dec 2020. Acedido a 24 Nov 2021</a></span><a class="headerlink" href="#imperial-to-metric" title="Permalink to this image">¶</a></p>
 </div>
-<p>Para além de Celsius, Fahrenheit e Kelvin, existem outras unidades de temperatura.</p>
-<p>Na escala Rankine, tal como na escala Kelvin, o zero absoluto corresponde a 0º.</p>
-<p>A escala Rankine está para a escala Farenheit como a escala Kelvin está para a escala Celsius: a diferença de temperatura de um grau Rankine é definido como sendo um grau Fahrenheit tal como a diferença de temperatura de um grau Kelvin corresponde a um grau Celsius.</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Temperature</p></th>
-<th class="head"><p>Kelvin</p></th>
-<th class="head"><p>Celsius</p></th>
-<th class="head"><p>Fahrenheit</p></th>
-<th class="head"><p>Rankine</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Zero absoluto</p></td>
-<td><p>0 K</p></td>
-<td><p>−273.15 °C</p></td>
-<td><p>−459.67 °F</p></td>
-<td><p>0 °R</p></td>
-</tr>
-<tr class="row-odd"><td><p>Congelação da água</p></td>
-<td><p>273.15 K</p></td>
-<td><p>0 °C</p></td>
-<td><p>32 °F</p></td>
-<td><p>491.67 °R</p></td>
-</tr>
-</tbody>
-</table>
-<p>Assim:</p>
-<ul class="simple">
-<li><p>Para a conversão entre Celsius e Fahrenheit, precisamos saber que 0⁰C corresponde a 32⁰F e que um intervalo de um grau Celsius corresponde a um intervalo de 1.8 graus Fahrenheit.</p></li>
-<li><p>Para converter entre Fahrenheit e Rankine, precisamos saber que o zero absoluto 0º R corresponde a -459.67ºF.</p></li>
-</ul>
 <div class="section" id="tarefa-a">
 <h3>Tarefa A<a class="headerlink" href="#tarefa-a" title="Link permanente para este título">¶</a></h3>
-<p>Prepare um programa em Python que converta uma temperatura indicada em graus Celsius para graus Rankine.</p>
-<p>O input é uma única linha contendo um real que corresponde à temperatura em graus Celsius.
-O output é um número real, com três casas decimais, que corresponde à temperatura em graus Rankine.</p>
-<p><strong>Note que</strong> pode utilizar uma ou mais funções que desenvolveu no Lab1.</p>
+<p>Prepare um programa em Python que converta uma distância indicada pé para centímetro.</p>
+<p>O input é uma única linha contendo um real que corresponde à distância em pé.
+O output é um número real, com três casas decimais, que corresponde à distância em centímetro.</p>
+<p><strong>Requisito técnico</strong>: deve usar a função <code class="docutils literal notranslate"><span class="pre">converte_polegada_para_centimetro</span></code> dada no Lab0.</p>
 <p><strong>Casos de teste</strong></p>
 <p><strong>Input 1</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="mf">273.15</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.0</span>
 </pre></div>
 </div>
 <p><strong>Output 1</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">0.000</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">30.480</span>
 </pre></div>
 </div>
 <p><strong>Input 2</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">0.000</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">10.0</span>
 </pre></div>
 </div>
 <p><strong>Output 2</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">491.670</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">304.800</span>
 </pre></div>
 </div>
 <p><strong>Input 3</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">100.0</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">5.0</span>
 </pre></div>
 </div>
 <p><strong>Output 3</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">671.670</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">152.400</span>
+</pre></div>
+</div>
+<p>Submeta na tarefa A do concurso IPC_F1.</p>
+<div style="page-break-after: always"></div>
+</div>
+</div>
+<div class="section" id="ocorrencias">
+<h2>Ocorrências<a class="headerlink" href="#ocorrencias" title="Link permanente para este título">¶</a></h2>
+<p>Foi recolhida informação sobre a temperatura, humidade relativa e pressão atmosférica (em hPa) de vários locais.</p>
+<p>Pretende-se saber a média de cada uma das grandezas.</p>
+<div class="section" id="tarefa-b">
+<h3>Tarefa B<a class="headerlink" href="#tarefa-b" title="Link permanente para este título">¶</a></h3>
+<p>Faça um programa em Python que leia da consola, até ao fim dos dados, três valores  por linha que correspondem a três grandezas medidas e apresente para cada grandeza o valor médio.</p>
+<p>Cada linha input contém dois valores reais e um valor inteiro, separados pos espaços.</p>
+<p>O output é uma única linha com três valores reais separados por espaço. Os números reais devem ser apresentados com uma casa decimal.</p>
+<p><strong>Casos de teste</strong></p>
+<p><strong>Input 1</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">20.0</span> <span class="mf">0.35</span> <span class="mi">1020</span>
+<span class="mf">21.0</span> <span class="mf">0.35</span> <span class="mi">1020</span>
+<span class="mf">22.0</span> <span class="mf">0.35</span> <span class="mi">1020</span>
+</pre></div>
+</div>
+<p><strong>Output 1</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">21.0</span> <span class="mf">0.3</span> <span class="mf">1020.0</span>
+</pre></div>
+</div>
+<p><strong>Input 2</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">20.0</span> <span class="mf">0.35</span> <span class="mi">1020</span>
+<span class="mf">21.0</span> <span class="mf">0.40</span> <span class="mi">1020</span>
+<span class="mf">22.0</span> <span class="mf">0.50</span> <span class="mi">1020</span>
+</pre></div>
+</div>
+<p><strong>Output 2</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">21.0</span> <span class="mf">0.4</span> <span class="mf">1020.0</span>
+</pre></div>
+</div>
+<p><strong>Input 3</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">20.0</span> <span class="mf">0.35</span> <span class="mi">990</span>
+<span class="mf">21.0</span> <span class="mf">0.40</span> <span class="mi">1030</span>
+<span class="mf">22.0</span> <span class="mf">0.50</span> <span class="mi">1010</span>
+</pre></div>
+</div>
+<p><strong>Output 3</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">21.0</span> <span class="mf">0.4</span> <span class="mf">1010.0</span>
 </pre></div>
 </div>
 <p>Submeta na tarefa A do concurso IPC_F1.</p>
@@ -397,21 +414,23 @@ O output é um número real, com três casas decimais, que corresponde à temper
 <h2>Gerar senhas<a class="headerlink" href="#gerar-senhas" title="Link permanente para este título">¶</a></h2>
 <div class="figure align-default" id="p4assw0rd">
 <a class="reference internal image-reference" href="../_images/codigos.png"><img alt="../_images/codigos.png" src="../_images/codigos.png" style="height: 200px;" /></a>
-<p class="caption"><span class="caption-text">Password secreta</span><a class="headerlink" href="#p4assw0rd" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">Password secreta</span><a class="headerlink" href="#p4assw0rd" title="Permalink to this image">¶</a></p>
 </div>
 <p>Isto de inventar senhas, todas diferentes, tem muito que se lhe diga. Vou passar a criar uma senha a partir de uma frase, idealmente associada ao serviço onde me quero autenticar.</p>
-<p>Vou passar a adotar uma estratégia que passa por aplicar sequencialmente cada uma das seguintes três transformações: a primeira letra é maiúscula e todas as outras são minúsculas; substituo todas as ocorrências de “a”, “e”, “i” e “o” por “4”, “3”, “1” e “0”, respetivamente; como muitas vezes são pedidos sinais de pontuação, então se o tamanho da frase for par, junto um ponto final (“.”) e se for ímpar, junto um ponto de exclamação (“!).</p>
+<p>Vou passar a adotar uma estratégia que passa por aplicar sequencialmente cada uma das seguintes três transformações: em cada palavra (ou sequência separada por espaços), se o primeiro carater for uma letra, converto-a para maiúscula e converto as demais letras para minúsculas; substituo todas as ocorrências de “a”, “e”, “i” e “o” por “4”, “3”, “1” e “0”, respetivamente; como muitas vezes são pedidos sinais de pontuação, então se a soma dos digitos numéricos for par, junto um ponto final (“.”) e se for ímpar, junto um ponto de exclamação (“!).</p>
 <p>Agora só preciso de um programa para converter as frases para quando precisar das senhas.</p>
-<div class="section" id="tarefa-b">
-<h3>Tarefa B<a class="headerlink" href="#tarefa-b" title="Link permanente para este título">¶</a></h3>
-<p>Prepare um programa em Python que leia da consola uma frase e apresente a senha correspondente de acordo com a estratégia apresentada.</p>
+<div class="section" id="tarefa-c">
+<h3>Tarefa C<a class="headerlink" href="#tarefa-c" title="Link permanente para este título">¶</a></h3>
+<p>Prepare um programa em Python que leia da consola uma frase e apresente a frase original e a senha correspondente de acordo com a estratégia apresentada.</p>
+<p>O input é uma única linha contendo uma string.
+O output é uma única linha contendo a string lida e a string resultante da codificação, separadas pela sequência espaço, dois pontos, espaço (ou seja, » : » (sem as aspas)).</p>
 <p><strong>Casos de teste</strong></p>
 <p><strong>Input 1</strong></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">segredo</span> <span class="n">meu</span> <span class="n">e</span> <span class="n">MUITO</span> <span class="n">meu</span>
 </pre></div>
 </div>
 <p><strong>Output 1</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>S3gr3d0 m3u 3 mu1t0 m3u!
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>segredo meu e MUITO meu : S3gr3d0 M3u E Mu1t0 M3u!
 </pre></div>
 </div>
 <p><strong>Input 2</strong></p>
@@ -419,7 +438,7 @@ O output é um número real, com três casas decimais, que corresponde à temper
 </pre></div>
 </div>
 <p><strong>Output 2</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>O c4st31r0 t0c4 s3mpr3 du4s v3z3s!
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">o</span> <span class="n">carteiro</span> <span class="n">toca</span> <span class="n">sempre</span> <span class="n">duas</span> <span class="n">vezes</span> <span class="p">:</span> <span class="n">O</span> <span class="n">C4rt31r0</span> <span class="n">T0c4</span> <span class="n">S3mpr3</span> <span class="n">Du4s</span> <span class="n">V3z3s</span><span class="o">.</span>
 </pre></div>
 </div>
 <p><strong>Input 3</strong></p>
@@ -427,74 +446,10 @@ O output é um número real, com três casas decimais, que corresponde à temper
 </pre></div>
 </div>
 <p><strong>Output 3</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C0nt4</span> <span class="n">d4</span> <span class="n">un1v</span> <span class="n">d0</span> <span class="mi">4</span><span class="n">lg4rv3</span><span class="o">.</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conta</span> <span class="n">da</span> <span class="n">Univ</span> <span class="n">do</span> <span class="n">Algarve</span> <span class="p">:</span> <span class="n">C0nt4</span> <span class="n">D4</span> <span class="n">Un1v</span> <span class="n">D0</span> <span class="n">Alg4rv3</span><span class="o">.</span>
 </pre></div>
 </div>
-<p>Submeta na tarefa B do concurso IPC_F1.</p>
-<div style="page-break-after: always"></div>
-</div>
-</div>
-<div class="section" id="quimica-a-toa">
-<h2>Química à toa<a class="headerlink" href="#quimica-a-toa" title="Link permanente para este título">¶</a></h2>
-<div class="figure align-default" id="tabela-periodica">
-<a class="reference internal image-reference" href="../_images/tp-ualg.jpeg"><img alt="../_images/tp-ualg.jpeg" src="../_images/tp-ualg.jpeg" style="height: 300px;" /></a>
-<p class="caption"><span class="caption-text"><a class="reference external" href="https://ualg.pt/pt/content/exposicao-desafios-da-tabela-periodica-pode-ser-visitada-na-biblioteca-da-ualg">Exposição “Desafios da Tabela Periódica”, na Biblioteca da UAlg</a></span><a class="headerlink" href="#tabela-periodica" title="Permalink to this image">¶</a></p>
-</div>
-<p>Fonte: <a class="reference external" href="https://eventos.fct.unl.pt/sites/default/files/topas-lx/files/problemas_topaslx_2016.pdf">Problema C do ToPAS 2016</a></p>
-<p>Quando o Rui estava a estudar Química, escrevendo fórmulas
-de compostos no caderno (como <span class="math notranslate nohighlight">\(CaCO_3\)</span> , <span class="math notranslate nohighlight">\(Na_2CO_3\)</span> e <span class="math notranslate nohighlight">\(H_ 2SO_4\)</span> ),
-apareceu a irmã mais nova, que ficou fascinada com aquelas
-sequências de letras e algarismos. O pior é que ela não se calava,
-exigindo que ele lhe explicasse como dividia uma sequência
-grande em pedacinhos. Desesperado, o Rui enunciou as regras:</p>
-<ul class="simple">
-<li><p>Cada sequência de letras que começa com uma letra
-grande (a irmã não conhecia a palavra “maiúscula”) representa um elemento;</p></li>
-<li><p>Se houver algum número a seguir ao elemento, esse é o número de átomos do elemento;
-se não houver, o número de átomos do elemento é 1.</p></li>
-</ul>
-<p>Depois, exemplificou com a fórmula do carbonato de cálcio, <span class="math notranslate nohighlight">\(CaCO_3\)</span> , que tem um átomo de
-cálcio (Ca), um átomo de carbono (C) e três átomos de oxigénio (O).
-A irmã ficou muito contente e queria aprender mais Química. Mas ele convenceu-a a praticar.
-Para poder regressar ao estudo rapidamente, decidiu escrever “fórmulas químicas” à toa e
-até inventou símbolos químicos com 1, 2, 3, 4 e 5 letras. Por exemplo, deu-lhe a fórmula
-<span class="math notranslate nohighlight">\(Ai_{19}Xpto_5Uus\)</span> (que tem tamanho 12) para decompor.</p>
-<div class="section" id="tarefa-c">
-<h3>Tarefa C<a class="headerlink" href="#tarefa-c" title="Link permanente para este título">¶</a></h3>
-<p>Escreva um programa que, dada uma fórmula química inventada pelo Rui e terminada por
-“.”, apresenta os elementos que ocorrem na fórmula e o número de átomos de cada um.</p>
-<p><strong>Input</strong></p>
-<p>Uma linha com uma fórmula química (inventada pelo Rui) terminada por “.”. A fórmula é
-uma sequência de <span class="math notranslate nohighlight">\(n\)</span> letras e algarismos, que começa com uma letra maiúscula e que não tem o
-algarismo zero imediatamente a seguir a uma letra, nem uma letra minúscula imediatamente
-a seguir a um algarismo. Nenhum elemento tem mais de cinco letras, nem ocorre mais do que
-uma vez na fórmula. O número de algarismos seguidos não excede <span class="math notranslate nohighlight">\(n − 1\)</span>.</p>
-<p><strong>Output</strong></p>
-<p>O output tem uma linha por cada elemento que ocorre na fórmula. Cada linha tem um
-elemento, um espaço, o número de átomos desse elemento e uma mudança de linha. Os
-elementos têm de aparecer pela ordem em que ocorrem na fórmula.</p>
-<p><strong>Casos de teste</strong></p>
-<p><strong>Input 1</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CaCO3</span><span class="o">.</span>
-</pre></div>
-</div>
-<p><strong>Output 1</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ca</span> <span class="mi">1</span>
-<span class="n">C</span> <span class="mi">1</span>
-<span class="n">O</span> <span class="mi">3</span>
-</pre></div>
-</div>
-<p><strong>Input 2</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ai19Xpto5Uus</span><span class="o">.</span>
-</pre></div>
-</div>
-<p><strong>Output 2</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ai</span> <span class="mi">19</span>
-<span class="n">Xpto</span> <span class="mi">5</span>
-<span class="n">Uus</span> <span class="mi">1</span>
-</pre></div>
-</div>
-<p>Submeta na tarefa C do concurso IPC_L5.</p>
+<p>Submeta na tarefa C do concurso IPC_F1.</p>
 </div>
 </div>
 </div>
@@ -522,8 +477,31 @@ elementos têm de aparecer pela ordem em que ocorrem na fórmula.</p>
               </div>
               
         
-            <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="Lab6.html" title="anterior page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">anterior</p>
+                <p class="prevnext-title">Lab6</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="M%C3%B3dulosTestes.html" title="próximo page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">próximo</p>
+                <p class="prevnext-title">Criação de soluções</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
 </div>
         
         </div>
@@ -544,7 +522,8 @@ elementos têm de aparecer pela ordem em que ocorrem na fórmula.</p>
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
+  
   </body>
 </html>
