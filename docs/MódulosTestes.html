@@ -55,7 +55,7 @@
     <link rel="canonical" href="https://margaridamadeira.github.io/IPC-2021-22/docs/MódulosTestes.html" />
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Pesquisar" href="../search.html" />
-    <link rel="prev" title="Lab6" href="Lab6.html" />
+    <link rel="prev" title="Ficheiros" href="Ficheiros.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="pt">
     
@@ -192,6 +192,16 @@
    Lab6
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="F1-2021.html">
+   Primeira Festa de Programação
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Ficheiros.html">
+   Ficheiros
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Criação de soluções
@@ -320,16 +330,14 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#simbolos-mais-comuns-num-fluxograma">
+     Símbolos mais comuns num fluxograma
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#exemplo-de-fluxograma">
      Exemplo de fluxograma
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#simbolos-mais-comuns-num-fluxograma">
-       Símbolos mais comuns num fluxograma
-      </a>
-     </li>
-    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#exercicios-propostos">
@@ -360,29 +368,29 @@
      Codificação e documentação
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alguns-pontos-curiosos">
+   Alguns pontos curiosos
+  </a>
+  <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#alguns-pontos-curiosos">
-     Alguns pontos curiosos
+    <a class="reference internal nav-link" href="#efeitos-colaterais">
+     Efeitos colaterais
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#efeitos-colaterais">
-       Efeitos colaterais
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#outros-cuidados-a-ter">
-       Outros cuidados a ter
-      </a>
-     </li>
-    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#exercicio-proposto">
-     Exercício proposto
+    <a class="reference internal nav-link" href="#outros-cuidados-a-ter">
+     Outros cuidados a ter
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercicio-proposto">
+   Exercício proposto
+  </a>
  </li>
 </ul>
 
@@ -411,13 +419,14 @@
 </div>
 <div class="section" id="criacao-de-uma-solucao-computacional">
 <h2>Criação de uma solução computacional<a class="headerlink" href="#criacao-de-uma-solucao-computacional" title="Link permanente para este título">¶</a></h2>
+<div class="figure align-default" id="passos">
+<a class="reference internal image-reference" href="../_images/passos.png"><img alt="../_images/passos.png" src="../_images/passos.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text">Passos para uma solução computacional</span><a class="headerlink" href="#passos" title="Permalink to this image">¶</a></p>
+</div>
 <ol class="simple">
 <li><p>Identificar o problema</p></li>
 <li><p>Análise do problema</p></li>
 <li><p>Formulação de um <em>algoritmo</em> para resolver o problema</p></li>
-</ol>
-<img src="./figures/passos.png" alt="Passos para uma solução computacional" style="width: 400px;"/>
-<ol class="simple">
 <li><p>Descrição do <em>algoritmo</em> de forma simples, eventualmente escrevendo o programa</p></li>
 <li><p>Execução ou validação</p></li>
 <li><p>Solução</p></li>
@@ -430,7 +439,10 @@
 <p>Um algoritmo é uma sequência precisa de operações ou atividades que resolvem um problema num tempo finito.</p>
 <p>Um programa (ou <em>script</em>) é a expressão de um algoritmo usando uma linguagem de programação.</p>
 <p>Juntando tudo isto, na resolução de problemas, tradicionalmente identificavam-se as fases:</p>
-<img src="./figures/etapas_1.jpg" alt="Análise e desenho" style="width: 400px;"/>
+<div class="figure align-default" id="etapas1">
+<a class="reference internal image-reference" href="../_images/etapas_1.jpg"><img alt="../_images/etapas_1.jpg" src="../_images/etapas_1.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">Análise e desenho</span><a class="headerlink" href="#etapas1" title="Permalink to this image">¶</a></p>
+</div>
 <ul class="simple">
 <li><p>Fase de <strong>Análise</strong>: decidir o que temos que fazer.</p></li>
 <li><p>Fase de <strong>Desenho</strong> (conceção de uma solução): decidir como se fará, é o desenvolvimento do <em>algoritmo</em>.</p>
@@ -449,7 +461,10 @@
 <li><p>Factível</p></li>
 <li><p>Independente da linguagem de programação e plataforma de implementação</p></li>
 </ul>
-<img src="./figures/etapas_2.jpg" alt="Codificação, testes e documentação" style="width: 400px;"/>
+<div class="figure align-default" id="etapas2">
+<a class="reference internal image-reference" href="../_images/etapas_2.jpg"><img alt="../_images/etapas_2.jpg" src="../_images/etapas_2.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">Codificação, testes e documentação</span><a class="headerlink" href="#etapas2" title="Permalink to this image">¶</a></p>
+</div>
 <ul class="simple">
 <li><p>Fase de <strong>Codificação</strong>: a implementação do algoritmo numa linguagem de programação adequada.</p></li>
 <li><p>Fase de <strong>Testes</strong>: não basta terminar o programa; há que garantir que o programa não falha e funciona para todos os casos possíveis.</p></li>
@@ -495,11 +510,19 @@ Fim: Termina
 </pre></div>
 </div>
 </div>
+<div class="section" id="simbolos-mais-comuns-num-fluxograma">
+<h3>Símbolos mais comuns num fluxograma<a class="headerlink" href="#simbolos-mais-comuns-num-fluxograma" title="Link permanente para este título">¶</a></h3>
+<div class="figure align-default" id="simbolos">
+<a class="reference internal image-reference" href="../_images/SimbFluxogr.jpg"><img alt="../_images/SimbFluxogr.jpg" src="../_images/SimbFluxogr.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Símbolos</span><a class="headerlink" href="#simbolos" title="Permalink to this image">¶</a></p>
+</div>
+</div>
 <div class="section" id="exemplo-de-fluxograma">
 <h3>Exemplo de fluxograma<a class="headerlink" href="#exemplo-de-fluxograma" title="Link permanente para este título">¶</a></h3>
-<img src="./figure/Alg_paridade.jpg" alt="Paridade" style="width: 400px;"/><div class="section" id="simbolos-mais-comuns-num-fluxograma">
-<h4>Símbolos mais comuns num fluxograma<a class="headerlink" href="#simbolos-mais-comuns-num-fluxograma" title="Link permanente para este título">¶</a></h4>
-<img src="./figures/SimbFluxogr.jpg" alt="Símbolos" style="width: 300px;"/></div>
+<div class="figure align-default" id="paridade">
+<a class="reference internal image-reference" href="../_images/AlgParidade.jpg"><img alt="../_images/AlgParidade.jpg" src="../_images/AlgParidade.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Paridade</span><a class="headerlink" href="#paridade" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 <div class="section" id="exercicios-propostos">
 <h3>Exercícios propostos<a class="headerlink" href="#exercicios-propostos" title="Link permanente para este título">¶</a></h3>
@@ -579,7 +602,7 @@ Escrever resultado:
 </div>
 <p>E como implementamos a função avaliar? De forma recursiva ou iterativa?</p>
 <p>A abordagem pretentida (iterativa ou recursiva) pode ficar clara na definição do algoritmo. Assim:</p>
-<img src="./figure/Alg_paridade_2.jpg" alt="Paridade" style="width: 400px;"/><p>ou seja:</p>
+<img src="./figures/Alg_paridade_2.jpg" alt="Paridade" style="width: 400px;"/><p>ou seja:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Avaliar:
     enquanto n &gt; 2
         n = n - 2     &lt; == iterativo
@@ -736,10 +759,11 @@ paridade_2(n)
 <p>Quando uma asserção não se verifica, o programa termina de forma abrupta, em erro, e isso não é adequado.</p>
 <p>Mas as funções que são feitas podem ser usados noutros contextos, que não o do programa inicial. O uso de asserções ajuda a criar soluções mais robustas, pois numa função podemos verificar que as condições necessárias para a sua utilização.</p>
 </div>
+</div>
 <div class="section" id="alguns-pontos-curiosos">
-<h3>Alguns pontos curiosos<a class="headerlink" href="#alguns-pontos-curiosos" title="Link permanente para este título">¶</a></h3>
+<h2>Alguns pontos curiosos<a class="headerlink" href="#alguns-pontos-curiosos" title="Link permanente para este título">¶</a></h2>
 <div class="section" id="efeitos-colaterais">
-<h4>Efeitos colaterais<a class="headerlink" href="#efeitos-colaterais" title="Link permanente para este título">¶</a></h4>
+<h3>Efeitos colaterais<a class="headerlink" href="#efeitos-colaterais" title="Link permanente para este título">¶</a></h3>
 <p>Porque criamos as funções, há que ter cuidado com as atividades das funções.
 Por exemplo,</p>
 <p>Se em vez de um inteiro, desenhassemos a função para trabalhar com o primeiro elemento de uma lista de inteiros, usando a mesma abordagem …</p>
@@ -795,7 +819,7 @@ Par [2]
 </div>
 </div>
 <div class="section" id="outros-cuidados-a-ter">
-<h4>Outros cuidados a ter<a class="headerlink" href="#outros-cuidados-a-ter" title="Link permanente para este título">¶</a></h4>
+<h3>Outros cuidados a ter<a class="headerlink" href="#outros-cuidados-a-ter" title="Link permanente para este título">¶</a></h3>
 <p>Não deve existir uma saída abrupta (return dentro do ciclo de controlo, p. exemplo).</p>
 <p>Cada função deve ter apenas um return.</p>
 <p>A aglutinação de operadores torna</p>
@@ -808,11 +832,10 @@ Par [2]
 </div>
 </div>
 <div class="section" id="exercicio-proposto">
-<h3>Exercício proposto<a class="headerlink" href="#exercicio-proposto" title="Link permanente para este título">¶</a></h3>
+<h2>Exercício proposto<a class="headerlink" href="#exercicio-proposto" title="Link permanente para este título">¶</a></h2>
 <ol class="simple">
 <li><p>Inclua documentação e testes na função que fez para validar uma data na tarefa D do Lab4.</p></li>
 </ol>
-</div>
 </div>
 </div>
 
@@ -841,11 +864,11 @@ Par [2]
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="Lab6.html" title="anterior page">
+    <a class='left-prev' id="prev-link" href="Ficheiros.html" title="anterior page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">anterior</p>
-            <p class="prev-next-title">Lab6</p>
+            <p class="prev-next-title">Ficheiros</p>
         </div>
     </a>
 </div>
