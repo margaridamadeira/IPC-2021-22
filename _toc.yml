@@ -27,5 +27,6 @@ parts:
   - file: docs/F1-2021
   - file: docs/Ficheiros
   - file: docs/MódulosTestes
+  - file: docs/Lab7
 
 
