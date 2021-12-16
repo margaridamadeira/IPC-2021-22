@@ -29,5 +29,6 @@ parts:
   - file: docs/MódulosTestes
   - file: docs/Lab7
   - file: docs/F2-2021
+  - file: docs/Matplotlib
 
 
