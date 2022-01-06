@@ -30,5 +30,7 @@ parts:
   - file: docs/Lab7
   - file: docs/F2-2021
   - file: docs/Matplotlib
+  - file: docs/Numpy
+  - file: docs/Lab8
 
 
