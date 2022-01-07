@@ -10,7 +10,9 @@ Antes disso, reúna todos os seus materiais para consulta durante a festa e os s
 
 ## Produtos
 
+
 ```{figure} ./figures/reagentes-quimicos.jpg
+---
 height: 300px
 name: Reagentes
 ---
